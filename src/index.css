@@ -1,0 +1,6 @@
+
+html, body, :global(#root) {
+  height: 100%;
+}
+
+*{margin:0;padding:0;list-style:none;text-decoration:none;box-sizing:border-box;font-size:14px}html,body,.wrap{width:100%;height:100%;display:flex;flex-direction:column;overflow:hidden}.header{width:100%;height:.8rem;background:#000;display:flex;justify-content:space-between;align-items:center;color:#fff}.header a{color:#fff}section,section ul{width:100%;flex:1;display:flex;flex-direction:column}section li,section ul li{width:100%;display:flex;align-items:center;height:.6rem;justify-content:center}section li:nth-of-type(2),section ul li:nth-of-type(2){position:relative}section li:nth-of-type(2) span,section ul li:nth-of-type(2) span{display:block;position:absolute;right:1.75rem;top:4px;width:1.7rem;height:.4rem;border:solid 1px #ccc;color:red}section li:nth-of-type(3),section ul li:nth-of-type(3){font-size:8px}section li:nth-of-type(3) b,section ul li:nth-of-type(3) b{color:red}section li:nth-of-type(4),section ul li:nth-of-type(4){display:flex;justify-content:center;align-items:center}section li:nth-of-type(4) p,section ul li:nth-of-type(4) p{display:flex;justify-content:center;align-items:center;width:60%;height:80%;border:solid 1px #ccc}

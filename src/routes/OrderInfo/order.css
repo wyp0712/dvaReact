@@ -1,0 +1,216 @@
+.wrap{
+    width:100%;
+    height:100%;
+    background:#eee;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    width:100%;
+    height:3.3rem;
+    background:#1890ff;
+    line-height: 3.3rem;
+    display: flex;
+    flex-direction: row;
+}
+.head h4{
+    font-size:16px;
+    color: #fff;
+}
+.head .icon{
+    width:10%;
+    font-size:22px;
+    line-height: 3.5rem;
+    color: #fff;
+}
+/*大盒子*/
+.center{
+    width:100%;
+    flex:1;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.top_box{
+    width:100%;
+    height:3.8rem;
+    background:#1890ff;
+    line-height: 3.8rem;
+    display: flex;
+    flex-direction: row;
+    color:#fff;
+}
+.top_box .icon{
+    width:10%;
+    font-size: 30px;
+    line-height: 3.8rem;
+}
+.top_box h1{
+    flex:1;
+    text-align: center;
+    font-size: 20px;
+    color:#fff;
+    font-weight: bold
+}
+.address{
+    width:100%;
+    height:8rem;
+    background:#fff;
+    color:#1890ff;
+}
+.address p{
+    width:50%;
+    height:3rem;
+    line-height: 3rem;
+    border-radius: 30px;
+    border:1px solid #1890ff;
+    margin: 0 auto;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+}
+.address p .icon{
+    width:20%;
+}
+.address p span{
+    font-size: 20px;
+}
+.myaddress{
+    width:90%;
+    margin:0 auto;
+}
+.myaddress span{
+    line-height: 2.6rem;
+}
+.myaddress .myaddr{
+    display: flex;
+    justify-content: space-between;
+}
+.myaddress .myaddr span{
+    font-size:24px;
+}
+.myaddress .myaddr .icon{
+    line-height: 2.6rem;
+}
+.times{
+    margin-top:.5rem;
+    width:100%;
+    height:8rem;
+    background:#fff;
+}
+.times ul li{
+    width:100%;
+    height:4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.times ul li p{
+    width:50%;
+    text-indent: 23px;
+    font-size:18px;
+}
+.times ul li .icon{
+    line-height: 4rem;
+    font-size:18px;
+}
+.times ul li span{
+    flex:1;
+    font-size:16px;
+    color: #1890ff;
+}
+.content{
+    width:100%;
+    height:100%;
+    overflow-y: scroll;
+    margin-top:.5rem;
+    background:#fff;
+}
+.content .shop,.shoplist{
+    width:95%;
+    margin:0 auto;
+}
+.content .shop{
+    height:4rem;
+    border-bottom:1px solid #ccc;
+    line-height: 4rem;
+}
+.content .shop p span{
+    font-weight: bold;
+    font-size:20px;
+}
+.content .shoplist .menu{
+    width:100%;
+    height:6rem;
+    border-bottom:1px solid #ccc;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+.content .shoplist .menu dt{
+    width:55%;
+    display: flex;
+    flex-direction: row;
+}
+.content .shoplist .menu dt div{
+    width:40%;
+    height:100%;
+}
+.content .shoplist .menu dt p{
+    line-height: 6rem;
+}
+.content .shoplist .menu dt div img{
+    width:100%;
+    height:80%;
+    padding:15px 10px 0px 0px;
+}
+.content .shoplist .menu dd{
+    width:30%;
+    line-height: 6rem;
+}
+.kong{
+    width:90%;
+    height:30rem;
+    margin:0 auto;
+}
+.kong .charge{
+    width:100%;
+    height:4rem;
+    line-height: 4rem;
+    border-bottom:1px solid #ccc;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+.kong .charge dt{
+    width:15%;
+}
+.kong .charge .name{
+    flex:1;
+}
+.kong .charge .price{
+    width:10%;
+}
+.footer{
+    width:100%;
+    height:3.3rem;
+    background:#5b5a5a;
+    color:#fff;
+    line-height: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer p{
+    width:70%;
+    text-indent:20px;
+    font-size:20px;
+}
+.footer span{
+    width:30%;
+    height:100%;
+    background:#40dc40;
+    text-align: center;
+    font-size:18px;
+}
